@@ -8,13 +8,14 @@
         //     'prc' => 1,
         //     'rate' => 1,
         //     'liked' => false,
-        //     'in_cart' => false
+        //     'in_cart' => false,
         //     'babayaran' => false,
         //     'ipapadala' => false,
         //     'parating' => false,
         //     'ibinalik' => false,
         //     'nakuha' => false,
-        //     'ikinansela' => false
+        //     'ikinansela' => false,
+        //     'ilan' => 0
         // ],
         [
             'id' => 1,
@@ -30,7 +31,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 57
         ],
         [
             'id' => 2,
@@ -46,7 +48,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 38
         ],
         [
             'id' => 3,
@@ -62,7 +65,8 @@
             'parating' => true,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 54
         ],
         [
             'id' => 4,
@@ -78,7 +82,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 3
         ],
         [
             'id' => 5,
@@ -94,7 +99,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 83
         ],
         [
             'id' => 6,
@@ -110,7 +116,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => false,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 45
         ],
         [
             'id' => 7,
@@ -126,7 +133,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 28
         ],
         [
             'id' => 8,
@@ -142,7 +150,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 41
         ],
         [
             'id' => 10,
@@ -158,7 +167,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => false,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 72
         ],
         [
             'id' => 11,
@@ -174,7 +184,8 @@
             'parating' => true,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 145
         ],
         [
             'id' => 12,
@@ -190,7 +201,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => false,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 110
         ],
         [
             'id' => 13,
@@ -206,7 +218,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 73
         ],
         [
             'id' => 14,
@@ -222,7 +235,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 38
         ],
         [
             'id' => 15,
@@ -238,7 +252,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => false,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 357
         ],
         [
             'id' => 16,
@@ -254,7 +269,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 19
         ],
         [
             'id' => 17,
@@ -270,7 +286,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => false,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 45
         ],
         [
             'id' => 18,
@@ -286,7 +303,8 @@
             'parating' => true,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 52
         ],
         [
             'id' => 19,
@@ -302,7 +320,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 16
         ],
         [
             'id' => 20,
@@ -318,7 +337,8 @@
             'parating' => true,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 62
         ],
         [
             'id' => 21,
@@ -334,7 +354,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => true,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 48
         ],
         [
             'id' => 22,
@@ -350,7 +371,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 61
         ],
         [
             'id' => 23,
@@ -366,7 +388,8 @@
             'parating' => true,
             'ibinalik' => false,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 354
         ],
         [
             'id' => 24,
@@ -382,7 +405,8 @@
             'parating' => false,
             'ibinalik' => false,
             'nakuha' => true,
-            'ikinansela' => false
+            'ikinansela' => false,
+            'ilan' => 38
         ],
         [
             'id' => 25,
@@ -398,7 +422,8 @@
             'parating' => false,
             'ibinalik' => true,
             'nakuha' => false,
-            'ikinansela' => true
+            'ikinansela' => true,
+            'ilan' => 45
         ]
         // [
         //     'id' => 0,
