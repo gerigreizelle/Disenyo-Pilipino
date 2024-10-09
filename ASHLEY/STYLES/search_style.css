@@ -1,0 +1,163 @@
+body {
+    background-color: #f6e5c3;
+    margin-left: 5vb;
+    margin-right: 5vb;
+    /* width: auto; */
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    width: 100%;
+}
+
+.cont {
+    height: 760px;
+    width: 1350px;
+
+    /* background-color: blueviolet; */
+
+    /* border: 1px solid red; */
+}
+
+.top_cont {
+    width: 100%;
+}
+
+.language_cont {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2vw;
+    /* border: 1px solid red; */
+}
+
+.lang_dd {
+    font-family: Courier;
+}
+
+.lang_dd {
+    background-color: #f6e5c3;
+    border: none;
+    font-family: Courier;
+}
+
+.logo-page_name-icons {
+    /* border: 1px solid red; */
+
+    display: flex;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.page_name {
+    font-family: Courier;
+    margin: 0px;
+
+    font-size: 40px;
+    align-self: center;
+
+    margin-left: 1vw;
+    padding-left: 2vw;
+    border-left: 2px solid black;
+}
+
+.icons_cont {
+    display: flex;
+    margin-left: auto;
+    margin-right: 4vw;
+    /* align-self: self-end; */
+
+    /* align-self: flex-end; */
+}
+
+#icon_heart, #icon_sb {
+    font-size: 50px;
+    color: #1a7a69;
+
+    margin: 1vb;
+}
+
+#icon_profile {
+    font-size: 55px;
+    color: #1a7a69;
+
+    margin: 1vb;
+}
+
+#icon_heart:enabled {
+    color: red;
+}
+
+.search_bar {
+    background-color: #f6e5c3;
+    border: 1px solid #4869ce;
+    border-radius: 1vb;
+    font-family: 'Courier New';
+    font-size: 20px;
+    margin: 1vb;
+    margin-left: 2vb;
+    padding: 1.3vb;
+    width: 80vb;
+}
+
+.sort_cont {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: c; */
+}
+
+.sort_txt, .mga_ktgry, .presyo, .grado {
+    font-family: 'Courier New';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.sorted_prdcts_cont {
+    /* border: 1px solid red; */
+    display: flex;
+
+    width: 1400px;
+
+    justify-content: space-evenly;
+
+    margin-top: 4vh;
+
+    flex-flow: row wrap;
+}
+
+.prdct_cont{
+    background-color: #1a7a69;
+    display: inline-block;
+    height: 400px;
+    width: 250px;
+
+    margin: 2vb;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.prdct_img {
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.prdct_name, .prdct_prc, .prdct_rate {
+    font-family: Courier;
+    font-size: 20px;
+    margin: 0px;
+    color: #f6e5c3;
+
+    width: 200px;
+}
