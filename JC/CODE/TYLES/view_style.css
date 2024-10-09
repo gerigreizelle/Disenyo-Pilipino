@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'cubao';
+    src: url('FONT/Cubao_Free_Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body {
+    background-color: #f6e5c3;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.cntnr {
+    margin-top: 10px;
+    height: 760px;
+    width: 1350px;
+}
+.header_cnt {
+    width: 100%;
+}
+.lngg_cnt {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2vw;
+}
+label {
+    font-family: courier;
+}
+.lngg_slct {
+    background-color: #f6e5c3;
+    border: none;
+    font-family: Courier;
+    cursor: pointer;
+}
+
+.logo-srch-nav {
+    display: flex;
+    margin-bottom: 2vh;
+    align-items: center;
+}
+
+.logo_cnt {
+    background: #f4d35e;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.logo_bckgrnd {
+    text-align: center;
+    text-decoration: none;
+}
+.D {
+    font-family: 'cubao', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #5486b9;
+}
+.P {
+    font-family: 'cubao', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #c44838;
+}
+.dsgn {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+
+    color: #f4d35e;
+    background: lightslategray;
+    border-radius: 10px 0 30px 0;
+}
+
+.srch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.srch .srch_bx {
+    background: transparent;
+    height: 70px;
+    width: 700px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    font-size: 24px;
+    color: #4f4f4f;
+    padding-left: 20px;
+}
+
+button .material-symbols-outlined {
+    margin-top: -25px;
+    margin-left: -60px;
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    font-size: 50px;
+    border: none;
+    color: #c44838;
+}
+
+.nav_cnt {
+    display: flex;
+    margin-left: auto;
+    margin-right: 4vw;
+}
+
+#icon_heart, #icon_sb {
+    font-size: 50px;
+    color: #1a7a69;
+
+    margin: 1vb;
+}
+
+#icon_profile {
+    font-size: 55px;
+    color: #1a7a69;
+
+    margin: 1vb;
+}
+
+#icon_heart:enabled {
+    color: red;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding-bottom: 80px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.navbar a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 150px;
+}
+
+.navbar .bl:hover {
+    background: #5486b9;;
+}
+.navbar .rd:hover, 
+.navbar a.active {
+    background-color: #f0685e;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    width: 80vw;
+    height: 450px;
+    background-color: transparent;
+
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+.main-image img {
+    width: 400px;
+    height: auto;
+    border: 50px solid #1a7a69;
+}
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnails img {
+    width: 150px;
+    height: 150px;
+    border: 20px solid #52ab9b;
+}
+.details {
+    text-align: center;
+    font-size: 18px;
+}
+.details p {
+    margin-bottom: 5px;
+    color: #00695c;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.actions button {
+    background-color: #52ab9b;
+    color: #f7eed2;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.actions button:hover {
+    background-color: #004d40;
+}
+.actions .heart {
+    font-size: 24px;
+    color: #52ab9b;
+    cursor: pointer;
+}

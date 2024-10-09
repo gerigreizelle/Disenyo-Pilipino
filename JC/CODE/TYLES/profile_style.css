@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'cubao';
+    src: url('FONT/Cubao_Free_Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nickainly';
+    src: url('FONT/Nickainley-Normal.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body {
+    background-color: #f6e5c3;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.cntnr {
+    margin-top: 10px;
+    height: 760px;
+    width: 1350px;
+}
+.header_cnt {
+    width: 100%;
+}
+.lngg_cnt {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2vw;
+}
+label {
+    font-family: courier;
+}
+.lngg_slct{
+    cursor: pointer;
+    background-color: #f6e5c3;
+    border: none;
+    font-family: Courier;
+}
+
+.logo-srch-nav {
+    display: flex;
+    margin-bottom: 2vh;
+    align-items: center;
+}
+
+.logo_cnt {
+    background: #f4d35e;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.logo_bckgrnd {
+    text-align: center;
+    text-decoration: none;
+}
+.D {
+    font-family: 'cubao', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #5486b9;
+}
+.P {
+    font-family: 'cubao', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #c44838;
+}
+.dsgn {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+
+    color: #f4d35e;
+    background: lightslategray;
+    border-radius: 10px 0 30px 0;
+}
+
+.nav_cnt {
+    display: flex;
+    margin-left: auto;
+    margin-right: 4vw;
+}
+
+#icon_heart, #icon_sb {
+    font-size: 50px;
+    color: #1a7a69;
+
+    margin: 1vb;
+}
+
+#icon_profile {
+    font-size: 55px;
+    color: #1a7a69;
+
+    margin: 1vb;
+}
+
+#icon_heart:enabled {
+    color: red;
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    background-color: #1a7a69;
+    padding-top: 20px;
+    border-radius: 75px;
+    margin-top: 70px;
+}
+.mabuhay-text {
+    width: 500px;
+    height: 200px;
+    color: #FDD943;
+    text-shadow: 2px 2px 2px #2F7D66, -3px -2px 2px #F04679, -6px 2px 2px #2E96F7;
+}
+.welcome-text {
+    color: #f7eed2;
+    font-size: 30px;
+    max-width: 500px;
+    padding-left: 30px;
+    line-height: 1.6;
+}
+.mensahe p {
+    font-family: 'poppins', sans-serif;
+    padding: 20px;
+}
+text {
+    font-family: 'nickainly', sans-serif;
+}
+
+.info_cnt {
+    display: flex;
+    align-items: center;
+}
+
+.info_cnt .profile {
+    text-align: center;
+    align-content: center;
+    background: #1a7a69;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+}
+.profile .palit {
+    margin: 110px 20px;
+    position: absolute;
+    background: #59b6a6;
+    border: 1px solid #1a7a69;
+    border-radius: 15px;
+    height: 45px;
+    width: 19vw;
+    transition: background-color 0.5s;
+    cursor: pointer;
+
+    color: #f7eed2;
+    font-size: 22px;
+    text-align: center;
+}
+.profile .palit:hover {
+    background: #0f6353;
+}
+.profile .palit p {
+    padding-top: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+.info_cnt .info {
+    background: #1a7a69;
+    margin: 20px;
+    width: 950px;
+    height: 350px;
+
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    color: #f7eed2;
+}
+.info .f {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 40px;
+    display: flex;
+
+}
+.info .f p {
+    width: 370px;
+}
+
+.info .ed_cnt {
+    display: flex;
+}
+.info .ed_cnt .edit {
+    margin: 60px 40px;
+    cursor: pointer;
+
+    border: 1px solid #1a7a69;
+    border-radius: 20px;
+    background: #59b6a6;
+    transition: background-color 0.5s;
+
+    width: 22vw;
+    height: 70px;
+}
+
+.info .ed_cnt .edit:hover {
+    background: #0f6353;
+}
+
+.edit p, a{
+    color: #f7eed2;
+    text-decoration: none;
+    font-size: 22px;
+
+    padding-top: 22px;
+    text-align: center;
+}
+
+/* edit_profile */
+.info .ed_ed_cnt {
+    display: flex;
+}
+.info .ed_ed_cnt .ed_edit {
+    margin: 60px 40px;
+    cursor: pointer;
+
+    border: 1px solid #1a7a69;
+    border-radius: 20px;
+    background: #59b6a6;
+    transition: background-color 0.5s;
+
+    width: 12vw;
+    height: 60px;
+}
+
+.info .ed_ed_cnt .ed_edit:hover {
+    background: #0f6353;
+}
+
+.ed_edit p, a{
+    color: #f7eed2;
+    text-decoration: none;
+    font-size: 18px;
+
+    padding-top: 20px;
+    text-align: center;
+}
